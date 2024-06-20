@@ -1,0 +1,31 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #e4e7ed;
+}
+
+#common {
+    color: #47b7d4;
+}
+
+#button {
+    background-color: #ee6a17;
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    background-color: #e4e7ed;
+    padding: 12px;
+    border-radius: 18px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
